@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="he_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Palisade\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ptest">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/ptest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 ptest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ptest/fast">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/ptest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 ptest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="query">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/query" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 query"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="query/fast">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/query" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 query/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decrypt">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/decrypt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 decrypt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decrypt/fast">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/decrypt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 decrypt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="encrypt">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/encrypt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 encrypt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="encrypt/fast">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/encrypt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 encrypt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/Users/xuhua/Desktop/he_test/cmake-build-debug/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xuhua/Desktop/he_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/libomp/include"/>
+					<Add directory="/usr/local/include/palisade"/>
+					<Add directory="/usr/local/include/palisade/third-party/include"/>
+					<Add directory="/usr/local/include/palisade/core"/>
+					<Add directory="/usr/local/include/palisade/pke"/>
+					<Add directory="/usr/local/include/palisade/binfhe"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xuhua/Desktop/he_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xuhua/Desktop/he_test/decrypt.cpp">
+			<Option target="decrypt"/>
+		</Unit>
+		<Unit filename="/Users/xuhua/Desktop/he_test/encrypt.cpp">
+			<Option target="encrypt"/>
+		</Unit>
+		<Unit filename="/Users/xuhua/Desktop/he_test/ptest.cpp">
+			<Option target="ptest"/>
+		</Unit>
+		<Unit filename="/Users/xuhua/Desktop/he_test/query.cpp">
+			<Option target="query"/>
+		</Unit>
+		<Unit filename="/Users/xuhua/Desktop/he_test/server.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/Users/xuhua/Desktop/he_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xuhua/Desktop/he_test/../../../../usr/local/lib/cmake/Palisade/PalisadeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Palisade\"/>
+		</Unit>
+		<Unit filename="/Users/xuhua/Desktop/he_test/../../../../usr/local/lib/cmake/Palisade/PalisadeConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Palisade\"/>
+		</Unit>
+		<Unit filename="/Users/xuhua/Desktop/he_test/../../../../usr/local/lib/cmake/Palisade/PalisadeTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Palisade\"/>
+		</Unit>
+		<Unit filename="/Users/xuhua/Desktop/he_test/../../../../usr/local/lib/cmake/Palisade/PalisadeTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Palisade\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
