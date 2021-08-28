@@ -140,10 +140,6 @@ vector<string> parseQuery() {
     ifstream queryFile;
     queryFile.open(DATAFOLDER + QUERY_FILE);
 
-    if (!queryFile) {
-        cerr << "Unable to open " + DATAFOLDER + QUERY_FILE << endl;
-        exit(1);
-    }
     string line;
     getline(queryFile, line);
     int index = line.find(' ');
@@ -221,8 +217,6 @@ vector<LWECiphertext> mul(const BinFHEContext& cc, const LWECiphertext& scalar,
 }
 
 
-
-
 vector<LWECiphertext> addNoCarry(const BinFHEContext& cc, const vector<LWECiphertext>& c1,
                                  const vector<LWECiphertext>& c2) {
     vector<LWECiphertext> result;
@@ -231,9 +225,6 @@ vector<LWECiphertext> addNoCarry(const BinFHEContext& cc, const vector<LWECipher
     }
     return result;
 }
-
-
-
 
 
 // compare data[i] and data[j], swap the smaller one to data[i]
@@ -269,7 +260,6 @@ data, int i, int j) {
 }
 
 
-
 // finds the ciphertext whose plaintext has the minimum value
 // Note: this function modifies all the ciphertext arrays in the list
 vector<LWECiphertext> FindMin(const BinFHEContext& cc, vector<vector<LWECiphertext>>& data) {
@@ -278,7 +268,6 @@ vector<LWECiphertext> FindMin(const BinFHEContext& cc, vector<vector<LWECipherte
     }
     return data[0];
 }
-
 
 // finds the ciphertext whose plaintext has the maximum value
 // Note: this function modifies all the ciphertext arrays in the list
@@ -312,7 +301,7 @@ void executeQuery(vector<string> query) {
 
     if (action == "2" || action == "3") {
 
-        // recover context amd ciphertext data
+        // recover context and ciphertext data
         BinFHEContext cc;
         DeserializeBinContext(cc);
         auto refreshKey = DeserializeRefreshingKey(cc);
@@ -340,9 +329,6 @@ void executeQuery(vector<string> query) {
         SerializeRealResult(result);
     }
 }
-
-
-
 
 
 void testAddNoCarry(const BinFHEContext& cc,  ConstLWEPrivateKey sk, const vector<LWECiphertext>&
@@ -451,7 +437,6 @@ void testAverage() {
     cout << res << endl;
 
 }
-
 
 
 int main() {

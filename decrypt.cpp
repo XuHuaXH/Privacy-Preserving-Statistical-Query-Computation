@@ -10,8 +10,6 @@
 #include "pubkeylp-ser.h"
 #include "scheme/ckks/ckks-ser.h"
 
-
-
 // these header files are needed for reading data
 #include <vector>
 #include <string>
@@ -37,10 +35,6 @@ vector<string> parseQuery() {
     ifstream queryFile;
     queryFile.open(DATAFOLDER + QUERY_FILE);
 
-    if (!queryFile) {
-        cerr << "Unable to open " + DATAFOLDER + QUERY_FILE << endl;
-        exit(1);
-    }
     string line;
     getline(queryFile, line);
     int index = line.find(' ');

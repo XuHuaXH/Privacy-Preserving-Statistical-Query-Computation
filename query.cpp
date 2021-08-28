@@ -35,7 +35,6 @@ using namespace lbcrypto;
 using namespace std;
 
 // path where files will be written to
-
 const std::string DATAFOLDER = "../HEData";
 
 

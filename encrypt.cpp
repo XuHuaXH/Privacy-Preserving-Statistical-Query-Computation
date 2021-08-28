@@ -139,17 +139,13 @@ int binKeyGeneration() {
     // ------------------------------------------ Key Generation  -------------------------------------------------
 
     // Generating the crypto context
-
     auto cc_bin = BinFHEContext();
-
     cc_bin.GenerateBinFHEContext(STD128);
 
     // Generating the secret key
-
     auto sk = cc_bin.KeyGen();
 
     // Generating the bootstrapping keys
-
     cc_bin.BTKeyGen(sk);
 
     cout << "All Keys have generated." << endl;
@@ -158,7 +154,6 @@ int binKeyGeneration() {
     // --------------------------------------- Serilization -----------------------------------------------------
 
     // Serialization of Keys
-
     if (!Serial::SerializeToFile(DATAFOLDER + "/keyData/bin_cc.txt", cc_bin, SerType::BINARY)) {
         cerr << " Error serializing the cryptocontext" << endl;
 
@@ -291,7 +286,6 @@ int dataEncryption(vector<pair<string, vector<double>>> testData){
     cout << "The refreshing key and switching key has been deserialized" << endl;
 
     // Loading the keys in the cryptocontext
-
     bin_cc.BTKeyLoad({bin_refreshKey, bin_switchKey});
 
     LWEPrivateKey bin_privateKey;
@@ -317,7 +311,6 @@ int dataEncryption(vector<pair<string, vector<double>>> testData){
     cout << "The cryptocontext has been deserialized." << endl;
 
     // ~~~~~~~~~~~~ Set 2: Public Key ~~~~~~
-
     LPPublicKey<DCRTPoly> real_publicKey;
     if (!Serial::DeserializeFromFile(DATAFOLDER + "/keyData/real_public_key.txt", real_publicKey,
             SerType::BINARY))
@@ -331,7 +324,6 @@ int dataEncryption(vector<pair<string, vector<double>>> testData){
 
 
     // Deserilizing secret key
-
     LWEPrivateKey bin_sk;
     if (!Serial::DeserializeFromFile(DATAFOLDER + "/keyData/bin_private_key.txt", bin_sk,
             SerType::BINARY)) {
@@ -344,7 +336,6 @@ int dataEncryption(vector<pair<string, vector<double>>> testData){
 
 
     // ------------------------------ Encrypting Data ------------------------------------------------------
-
     int col_size = testData.size();
     int row_size = testData.at(0).second.size();
 
