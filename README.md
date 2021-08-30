@@ -1,1 +1,1 @@
-# Statistical-Queries-on-Encrypted-Data
+# Privacy-Preserving-Statistical-Query-Computation
